@@ -19,7 +19,7 @@ const Intro = () => {
         <Link smooth={true}
             spy={true}
             offset={-50}
-            duration={500} to="skills" ><button className="btn"><img src={btnImg} alt="button" className="btnImg"/>Learn More</button></Link>
+            duration={500} to="about" ><button className="btn"><img src={btnImg} alt="button" className="btnImg"/>Learn More</button></Link>
       </div>
       <img src={bg} alt="background image" className="bg" />
     </section>

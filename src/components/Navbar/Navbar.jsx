@@ -70,8 +70,16 @@ const Navbar = () => {
           Contact
         </button>
 
-        <img src={menu} alt="Menu" className="mobMenu" onClick={() => setShowMenu(!showMenu)}/>
-        <div className="navMenu" style={{display: showMenu ? "flex" : "none"}}>
+        <img
+          src={menu}
+          alt="Menu"
+          className="mobMenu"
+          onClick={() => setShowMenu(!showMenu)}
+        />
+        <div
+          className="navMenu"
+          style={{ display: showMenu ? "flex" : "none" }}
+        >
           <Link
             className="listItem"
             activeClass="active"
@@ -93,7 +101,7 @@ const Navbar = () => {
             spy={true}
             offset={-50}
             duration={500}
-            to="skills"
+            to="about"
             onClick={() => {
               setShowMenu(false);
             }}
@@ -114,7 +122,7 @@ const Navbar = () => {
           >
             Portfolio
           </Link>
-          <Link
+          {/* <Link
             className="listItem"
             activeClass="active"
             smooth={true}
@@ -127,21 +135,8 @@ const Navbar = () => {
             }}
           >
             Clients
-          </Link>
-          <Link
-            className="listItem"
-            activeClass="active"
-            smooth={true}
-            spy={true}
-            offset={-100}
-            duration={500}
-            to="contact"
-            onClick={() => {
-              setShowMenu(false);
-            }}
-          >
-            Clients
-          </Link>
+          </Link> */}
+
           <Link
             className="listItem"
             activeClass="active"

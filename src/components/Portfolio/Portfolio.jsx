@@ -22,7 +22,7 @@ const Portfolio = () => {
         <img src={Portfolio5} alt="Portfolio5" className="portfolioImg" />
         <img src={Portfolio6} alt="Portfolio6" className="portfolioImg" />
       </div>
-      <button className="portfolioBtn">See More</button>
+      {/* <button className="portfolioBtn">See More</button> */}
     </section>
   );
 };

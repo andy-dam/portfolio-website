@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section id="about">
       <span className="aboutTitle">About</span>
-      <span className="abaoutDesc">
+      <span className="aboutDesc">
         I&rsquo;m a current first-year student from Spring, TX currently
         studying at the University of Texas at Dallas and pursuing a B.S. in
         Computer Science, possibly also fast-track into an M.S. in Computer
